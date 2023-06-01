@@ -19,5 +19,5 @@ menu_link.click()
 
 #submenu_link = navegador.find_element()
 
-#site = BeautifulSoup(navegador.page_source, 'html.parser')
+#site = BeautifulSoup(navegador.page_source, 'html.parser'
 #print(site.prettify())
