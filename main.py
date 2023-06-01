@@ -14,8 +14,10 @@ navegador.get('https://documentacao.mksolutions.com.br/')
 
 sleep(2)
 
-button_stay = navegador.find_element(By.ID, 'plusminus10158626-0')
-button_stay.click()
+menu_link = navegador.find_element(By.ID, 'plusminus10158626-0')
+menu_link.click()
 
-site = BeautifulSoup(navegador.page_source, 'html.parser')
-print(site.prettify())
+#submenu_link = navegador.find_element()
+
+#site = BeautifulSoup(navegador.page_source, 'html.parser')
+#print(site.prettify())
